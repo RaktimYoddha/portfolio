@@ -25,6 +25,10 @@ import {
   tripguide,
   threejs,
   invalid,
+  pronotes,
+  portfolio,
+  weatherdaily,
+  webeditor,
 } from "../assets";
 
 export const navLinks = [
@@ -202,6 +206,7 @@ const testimonials = [
   },
 ];
 
+
 const projects = [
   {
     name: "Portfolio Website",
@@ -209,20 +214,24 @@ const projects = [
       "A 3D animated Web Application user interface to showcase all skills, Projects and all other necessary information ",
     tags: [
       {
-        name: "react",
+        name: "React.js",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "Vite",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "TailwindCSS",
         color: "pink-text-gradient",
       },
+      {
+        name: "Three.js",
+        color: "orange-text-gradient",
+      },
     ],
-    image: invalid,
-    source_code_link: "https://github.com/",
+    image: portfolio,
+    source_code_link: "https://github.com/RaktimYoddha/portfolio",
   },
   {
     name: "Pro Notes",
@@ -230,41 +239,74 @@ const projects = [
       "A Web application that enables users to signUp and login through their email account and create notes. Users also get the option to update and delete previously created notes",
     tags: [
       {
-        name: "nextjs",
+        name: "React.js",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "ChakraUI",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "Redux",
         color: "pink-text-gradient",
       },
+      {
+        name: "TailwindCSS",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Node.js",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "Express.js",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "MongoDB",
+        color: "green-text-gradient",
+      },
     ],
-    image: invalid,
-    source_code_link: "https://github.com/",
+    image: pronotes,
+    source_code_link: "https://github.com/RaktimYoddha/pro-notes-frontend",
   },
-   {
+  {
     name: "Convo",
     description:
       "A real-time chatting Web Application which enables users to chat as well as to share images, videos and various files with friends, family and colleague",
     tags: [
       {
-        name: "react",
+        name: "React.js",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "MaterialUI",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "TailwindCSS",
         color: "pink-text-gradient",
       },
+      {
+        name: "Node.js",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Express.js",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "MongoDB",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Socket.io",
+        color: "blue-text-gradient",
+      },
+
     ],
     image: convo,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/RaktimYoddha/convo",
   },
   {
     name: "Weather Daily",
@@ -284,8 +326,8 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: invalid,
-    source_code_link: "https://github.com/",
+    image: weatherdaily,
+    source_code_link: "https://github.com/RaktimYoddha/Weather-Daily",
   },
   {
     name: "Musify",
@@ -306,7 +348,7 @@ const projects = [
       },
     ],
     image: musify,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/RaktimYoddha/Musify",
   },
   {
     name: "Web Development editor",
@@ -326,8 +368,8 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: invalid,
-    source_code_link: "https://github.com/",
+    image: webeditor,
+    source_code_link: "https://github.com/RaktimYoddha/web-dev-editor",
   },
   {
     name: "Trading King",
@@ -348,7 +390,28 @@ const projects = [
       },
     ],
     image: tradingking,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/RaktimYoddha/trading-king",
+  },
+  {
+    name: "Musify -vanilla",
+    description:
+      "A music Web Interface that enables users to select and Play music to few accessible songs",
+    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "supabase",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: musifybeta,
+    source_code_link: "https://github.com/RaktimYoddha/Musify-Vanilla",
   },
   {
     name: "Todo-List",
@@ -369,27 +432,7 @@ const projects = [
       },
     ],
     image: todo,
-    source_code_link: "https://github.com/",
-  },{
-    name: "Musify -vanilla",
-    description:
-      "A music Web Interface that enables users to select and Play music to few accessible songs",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: musifybeta,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/RaktimYoddha/Todo-list-react-CRD",
   },
   {
     name: "Drum-Kit Mini",
@@ -397,20 +440,20 @@ const projects = [
       "A click responding Drum-Kit Web interface that enables the user to play drum-set with click and accessible keys",
     tags: [
       {
-        name: "nextjs",
+        name: "HTML",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "CSS",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "Javascript",
         color: "pink-text-gradient",
       },
     ],
     image: drumkit,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/RaktimYoddha/DrumKit-mini",
   },
   {
     name: "Foody",
@@ -418,20 +461,20 @@ const projects = [
       "A Dummy Food Ordering Web interface design",
     tags: [
       {
-        name: "nextjs",
+        name: "HTML",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "CSS",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "Javascript",
         color: "pink-text-gradient",
       },
     ],
     image: foody,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/RaktimYoddha/FoodOrderBegineeer",
   },
   {
     name: "Snake Game",
@@ -439,20 +482,20 @@ const projects = [
       "A classical Snake Game Web Interface with Score and high score record and sound-effects",
     tags: [
       {
-        name: "nextjs",
+        name: "HTML",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "CSS",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "Javascript",
         color: "pink-text-gradient",
       },
     ],
     image: snakegame,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/RaktimYoddha/SnakeGame",
   },
   {
     name: "Tic-Tac-Toe Game",
@@ -460,20 +503,20 @@ const projects = [
       "A tik-tac-toe game Web Interface where every time a random player gets first chance to start the Game ",
     tags: [
       {
-        name: "nextjs",
+        name: "HTML",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "CSS",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "Javascript",
         color: "pink-text-gradient",
       },
     ],
     image: tictac,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/RaktimYoddha/tic-tac-toe",
   },
   
 ];

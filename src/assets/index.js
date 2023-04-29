@@ -42,6 +42,10 @@ import snakegame from "./project-images/snakegame.png";
 import tictac from "./project-images/tic-tac-toe.png";
 import todo from "./project-images/todo-list.png";
 import tradingking from "./project-images/TradingKing.png";
+import pronotes from "./project-images/pro-notes.png";
+import portfolio from "./project-images/portfolio.png";
+import weatherdaily from "./project-images/weatherdaily.png"
+import webeditor from "./project-images/webeditor.png"
 
 import favicon from "./favicon.png"
 
@@ -49,7 +53,7 @@ import favicon from "./favicon.png"
 
 
 export {
-  convo, musify, musifybeta, drumkit, foody, snakegame, tictac, todo, tradingking,
+  convo, musify, musifybeta, drumkit, foody, snakegame, tictac, todo, tradingking, pronotes, portfolio, weatherdaily, webeditor,
   invalid,
   favicon,
   logo,
