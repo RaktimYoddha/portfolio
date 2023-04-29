@@ -314,15 +314,15 @@ const projects = [
       "A Web Application that enables users to access all weather information of any desired state, region and country they searched for.",
     tags: [
       {
-        name: "nextjs",
+        name: "React.js",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "MaterialUI",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "CSS",
         color: "pink-text-gradient",
       },
     ],
@@ -335,16 +335,20 @@ const projects = [
       "A complete new generation music player Web Application that enables users to play and browse through all kind of music world wide",
     tags: [
       {
-        name: "react",
+        name: "React.js",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "Vite",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "Redux",
         color: "pink-text-gradient",
+      },
+      {
+        name: "TailwindCSS",
+        color: "orange-text-gradient",
       },
     ],
     image: musify,
@@ -356,15 +360,15 @@ const projects = [
       "A Web Application that enables users to make a website by writing HTML, CSS and JAVASCRIPT in their respective section and the result is shown on the spot",
     tags: [
       {
-        name: "nextjs",
+        name: "React.js",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "MaterialUI",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "CSS",
         color: "pink-text-gradient",
       },
     ],
@@ -377,15 +381,15 @@ const projects = [
       "A optimized stock tracking and Monitoring Web Application that enables users to view stocks of various companies and also provides their graph of ups and downs",
     tags: [
       {
-        name: "nextjs",
+        name: "React.js",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "Vite",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "CSS",
         color: "pink-text-gradient",
       },
     ],
@@ -398,15 +402,15 @@ const projects = [
       "A music Web Interface that enables users to select and Play music to few accessible songs",
     tags: [
       {
-        name: "nextjs",
+        name: "HTML",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "CSS",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "Javascript",
         color: "pink-text-gradient",
       },
     ],
@@ -419,16 +423,12 @@ const projects = [
       "A to-do list Web Application which enables users to create, read and delete their to-dos and save the user information in local storage of the user",
     tags: [
       {
-        name: "nextjs",
+        name: "React.js",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "CSS",
         color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
       },
     ],
     image: todo,
