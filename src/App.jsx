@@ -1,10 +1,12 @@
 import { BrowserRouter, Routes,  Route } from "react-router-dom";
 import Home from "./pages/Home";
+import Footer from "./components/footer";
 import AboutPage from "./pages/AboutPage";
 import ProjectPage from "./pages/ProjectPage";
 import ContactPage from "./pages/ContactPage";
-
 import { Navbar, StarsCanvas } from "./components";
+
+
 
 const App = () => {
   return (
@@ -19,6 +21,7 @@ const App = () => {
             <Route path="/contactpage" element={<ContactPage/>} />
           </Routes>
             <StarsCanvas />
+            <Footer/>
       </div>
     </BrowserRouter>
   );
