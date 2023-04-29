@@ -1,9 +1,9 @@
 const Footer = () =>{
 
     return(
-        <footer className="footer bg-hero-pattern">
+        <div className="footer bg-hero-pattern">
             <span>Designed and Developed By Raktim Yoddha</span>
-        </footer>
+        </div>
     );
 }
 export default Footer;
