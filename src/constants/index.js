@@ -268,7 +268,7 @@ const projects = [
       },
     ],
     image: pronotes,
-    source_code_link: "https://github.com/RaktimYoddha/pro-notes-frontend",
+    source_code_link: "https://github.com/RaktimYoddha/pro-notes",
   },
   {
     name: "Convo",
